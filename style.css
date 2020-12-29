@@ -14,12 +14,16 @@ body {
     display: table;
 }
 .signin {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
     position: absolute;
+    padding: 5em;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
 h2 {
+    margin-top: 0px;
     font-family: source sans pro;
     font-weight: lighter;
     color: #fff;
@@ -30,11 +34,23 @@ input {
     display: block;
     width: 320px;
     height: 50px;
-    background: rgba(0, 0, 0, 0 ,3);
+    background: rgba(0, 0, 0, 0.3);
     outline: none;
-    border: 1px solid rgba(0, 0, 0, 0 ,5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     font-family: Source Sans pro;
     font-weight: lighter;
     font-size: 14px;
-    
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+button {
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+    background: #000;
+    font-size: 16px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
 }
